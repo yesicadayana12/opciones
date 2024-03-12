@@ -1,9 +1,7 @@
-import com.sun.source.tree.SwitchTree;
-
 import javax.swing.*;
 import java.util.Scanner;
 
-public class lista {
+public class listado {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         int suma;
@@ -47,21 +45,23 @@ public class lista {
                     System.out.println(" el valor a pagar es " +multiplicar );
                 }
                 else{
-                        System.out.println(" señor@ usuario no tiene que pagar nada");
+                    System.out.println(" señor@ usuario no tiene que pagar nada");
 
-                    }
+                }
                 break;
             case 3:
 
-              System.out.println("Por favor ingrese la base del triangulo");
-              base = entrada.nextInt();
-              System.out.println("Por favor ingrese la altura del triangulo");
-              altura = entrada.nextInt();
-              area = base*altura/2;
-              JOptionPane.showMessageDialog(null,"el area del triangulo es:"+area);
+                System.out.println("Por favor ingrese la base del triangulo");
+                base = entrada.nextInt();
+                System.out.println("Por favor ingrese la altura del triangulo");
+                altura = entrada.nextInt();
+                area = base*altura/2;
+                JOptionPane.showMessageDialog(null,"el area del triangulo es:"+area);
 
             default:
                 JOptionPane.showMessageDialog(null,"señor/a usuari@ las las opciones son:1 , 2 y 3 no hay nada mas");
         }
     }
 }
+
+

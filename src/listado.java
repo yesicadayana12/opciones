@@ -19,7 +19,6 @@ public class listado {
         int num1 = entrada.nextInt();
         System.out.println("Por favor ingresa el valor 2:");
         int num2 = entrada.nextInt();
-
         opcion = Integer.parseInt(JOptionPane.showInputDialog("bienvenido selecione su opcion \n"
                 + "ingrese 1. si desea sumar o multiplicar los 2 valores\n"
                 + " ingresar 2. si desea validar \n"

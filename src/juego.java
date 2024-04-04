@@ -14,6 +14,7 @@ public class juego {
         System.out.println("Señor usuario el numero que se le pedira sera aumentado del 1 al 100");
         System.out.println("Señor usuario el numero que ingreso se le dira si es mayor o menor");
         System.out.println("Señor usuario se le dira cuantas veces intento en el juego");
+
        JOptionPane.showMessageDialog(null,"=========================================");
 
         aleatorio = (int) (Math.random()*100);
@@ -24,7 +25,7 @@ public class juego {
             numero = entrada.nextInt();
             if
             (numero==aleatorio){
-             System.out.println("Señor usuario el numero que escojio es " +numero);
+             System.out.println("Señor usuario el numero que escojio es correcto " +numero);
 
              if (numero>aleatorio){
                  System.out.println("Señor usuario su numero es mayor al que fue generado "+numero);
